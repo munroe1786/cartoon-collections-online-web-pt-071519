@@ -15,14 +15,13 @@ return array
 end
 
 def long_planeteer_calls(array)
-  array.each do |call|
-     if call.length > 4
+     if array.length > 4
         return true
      else
         return false
   end
 end
-end
+
 
 def find_the_cheese(array)
   if array.include? ("cheddar")
