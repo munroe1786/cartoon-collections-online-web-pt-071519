@@ -29,7 +29,7 @@ def find_the_cheese(array)
     if array.include? cheddar
       return "cheddar"
     else
-      return false
+      puts false
 end
 end
 end
