@@ -32,4 +32,5 @@ def find_the_cheese(array)
       return false
 end
 end
+end
 #cheese_types = ["cheddar", "gouda", "camembert"]
