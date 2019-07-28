@@ -27,7 +27,7 @@ end
 def find_the_cheese(array)
   array.each do |cheddar|
     if array.include? cheddar
-      p "cheddar"
+      return "cheddar"
     else
       puts false
 end
